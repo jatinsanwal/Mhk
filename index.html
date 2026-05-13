@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Mnkuu 💖</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html,body{
+width:100%;
+height:100%;
+overflow:hidden;
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#ffb6d9,#ffd6ea,#ffcfe3);
+}
+
+/* BACKGROUND GLOW */
+
+body::before{
+content:'';
+position:fixed;
+inset:0;
+background:
+radial-gradient(circle at top left,rgba(255,255,255,0.25),transparent 40%),
+radial-gradient(circle at bottom right,rgba(255,255,255,0.2),transparent 40%);
+z-index:0;
+}
+
+/* OPENING */
+
+.opening{
+position:fixed;
+inset:0;
+background:linear-gradient(135deg,#ff5ca8,#ff87bf);
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+z-index:9999;
+animation:fadeOut 2s forwards;
+animation-delay:2.5s;
+}
+
+.opening h1{
+font-size:3.2rem;
+font-family:'Dancing Script',cursive;
+color:white;
+text-shadow:0 0 10px rgba(255,255,255,0.7);
+}
+
+.opening p{
+margin-top:12px;
+font-size:1.1rem;
+color:white;
+font-weight:500;
+}
+
+@keyframes fadeOut{
+to{
+opacity:0;
+visibility:hidden;
+}
+}
+
+/* HEARTS */
+
+.hearts{
+position:fixed;
+inset:0;
+overflow:hidden;
+pointer-events:none;
+z-index:1;
+}
+
+.hearts span{
+position:absolute;
+bottom:-50px;
+animation:float linear forwards;
+opacity:.9;
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0) rotate(0deg);
+opacity:0;
+}
+
+10%{
+opacity:1;
+}
+
+100%{
+transform:translateY(-120vh) rotate(360deg);
+opacity:0;
+}
+
+}
+
+/* PAGES */
+
+.page{
+position:absolute;
+inset:0;
+display:none;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+padding:28px 22px 90px;
+overflow-y:auto;
+text-align:center;
+z-index:2;
+}
+
+.page.active{
+display:flex;
+animation:slide .6s ease;
+}
+
+@keyframes slide{
+
+from{
+opacity:0;
+transform:translateX(30px);
+}
+
+to{
+opacity:1;
+transform:translateX(0);
+}
+
+}
+
+/* GLASS CARD */
+
+.card{
+width:100%;
+max-width:850px;
+background:rgba(255,255,255,0.16);
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,0.2);
+border-radius:28px;
+padding:35px 24px;
+box-shadow:0 8px 30px rgba(255,105,180,0.15);
+}
+
+/* TEXT */
+
+h1{
+font-size:2.8rem;
+font-family:'Dancing Script',cursive;
+color:white;
+margin-bottom:20px;
+text-shadow:0 2px 8px rgba(0,0,0,0.15);
+}
+
+p{
+font-size:1.08rem;
+line-height:1.8;
+color:white;
+font-weight:600;
+text-shadow:0 1px 4px rgba(0,0,0,0.12);
+}
+
+.big{
+margin-top:22px;
+font-size:1.7rem;
+line-height:1.45;
+font-weight:700;
+color:white;
+text-shadow:0 2px 8px rgba(0,0,0,0.15);
+}
+
+.typing{
+font-size:1.1rem;
+font-weight:600;
+color:white;
+margin-bottom:24px;
+}
+
+/* BUTTON */
+
+button{
+margin-top:28px;
+padding:14px 34px;
+border:none;
+border-radius:50px;
+background:white;
+color:#ff4d98;
+font-size:1rem;
+font-weight:700;
+cursor:pointer;
+transition:.3s;
+box-shadow:0 6px 20px rgba(255,255,255,0.35);
+}
+
+button:hover{
+transform:scale(1.06);
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.page{
+padding:20px 16px 70px;
+}
+
+.card{
+padding:28px 18px;
+border-radius:24px;
+}
+
+h1{
+font-size:2.2rem;
+}
+
+p{
+font-size:.98rem;
+line-height:1.7;
+}
+
+.big{
+font-size:1.38rem;
+line-height:1.4;
+}
+
+.typing{
+font-size:1rem;
+}
+
+button{
+padding:13px 28px;
+font-size:.95rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- OPENING -->
+
+<div class="opening">
+<h1>For Mnkuu 💌</h1>
+<p>A little surprise for your smile 🌸</p>
+</div>
+
+<!-- HEARTS -->
+
+<div class="hearts"></div>
+
+<!-- PAGE 1 -->
+
+<section class="page active">
+<div class="card">
+
+<h1>Hello Mnkuu 💖</h1>
+
+<div class="typing">
+Please low feel मत करो... आपकी smile किसी भी marksheet से ज्यादा precious है...
+</div>
+
+<p>
+78% कोई छोटी बात नहीं होती जान... <br>
+आपने मेहनत की है, और आपकी मेहनत बहुत खूबसूरत है। 💗 <br><br>
+
+लोग compare करेंगे… कुछ बोलेंगे भी… <br>
+लेकिन हर किसी का journey अलग होता है। 🌸 <br><br>
+
+और मुझे आप पर सच में बहुत proud है… हमेशा रहेगा। 💞
+</p>
+
+<div class="big">
+बस एक promise करो… <br>
+खुद को दूसरों से compare नहीं करोगी… ✨
+</div>
+
+<button onclick="nextPage()">Next ➜</button>
+
+</div>
+</section>
+
+<!-- PAGE 2 -->
+
+<section class="page">
+<div class="card">
+
+<h1>78% is a GREAT percentage ✨</h1>
+
+<p>
+सुनो… सच बताऊँ? 💖 <br><br>
+
+इतने marks लेकर भी लोग बड़े बड़े government exams crack करते हैं। 🌸 <br><br>
+
+आपके पास हर मौका है… हर opportunity है… 💗 <br><br>
+
+अब बस आगे मेहनत करनी है… <br>
+खुद पे भरोसा रखना है… <br><br>
+
+क्योंकि future marksheet से नहीं… <br>
+मेहनत और consistency से बनता है। ✨
+</p>
+
+<div class="big">
+You are capable of MUCH more 💞
+</div>
+
+<button onclick="nextPage()">Next ➜</button>
+
+</div>
+</section>
+
+<!-- PAGE 3 -->
+
+<section class="page">
+<div class="card">
+
+<h1>You Are Never Alone 🫂</h1>
+
+<p>
+घरवाले कभी कभी बोल देते हैं… <br>
+comparison भी करते हैं… <br><br>
+
+लेकिन इसका मतलब ये नहीं कि आप कम हो। 💗 <br><br>
+
+मेरी family आपके साथ है… <br>
+मैं आपके साथ हूँ… <br>
+और आपकी family भी हमेशा आपके साथ रहेगी। 🌸 <br><br>
+
+Percentage चाहे कुछ भी हो… <br>
+आप हमेशा special रहोगी। ✨
+</p>
+
+<div class="big">
+WE ARE PROUD OF YOU 💖
+</div>
+
+<button onclick="nextPage()">Next ➜</button>
+
+</div>
+</section>
+
+<!-- PAGE 4 -->
+
+<section class="page">
+<div class="card">
+
+<h1>Remember This? 🎮💗</h1>
+
+<p>
+याद है हमने पहले एक game खेला था जिसमें हमने percentage निकाले थे? 🥹 <br><br>
+
+और देखो… आपकी सच में अच्छी percentage आई है। 🌸 <br><br>
+
+अब overthinking बंद… <br>
+अब focus सिर्फ dreams पर। 💖 <br><br>
+
+क्योंकि मुझे पता है… <br>
+मेरी Mnkuu बहुत आगे जाएगी। ✨
+</p>
+
+<div class="big">
+I’ll always stay beside you 💞
+</div>
+
+<button onclick="nextPage()">Last Page ➜</button>
+
+</div>
+</section>
+
+<!-- PAGE 5 -->
+
+<section class="page">
+<div class="card">
+
+<h1>I WILL ALWAYS BE WITH YOU ❤️</h1>
+
+<p>
+अब बस आगे बढ़ना है… <br>
+खूब मेहनत करनी है… 🌸 <br><br>
+
+Marks सिर्फ numbers होते हैं… <br>
+लेकिन आपकी value उससे कहीं ज्यादा है। 💗 <br><br>
+
+मुझे हमेशा आप पर proud रहेगा… <br>
+हर situation में… हमेशा। ✨
+</p>
+
+<div class="big">
+Percentage बस result होता है… <br>
+लेकिन आप… मेरी favourite achievement हो 💖
+</div>
+
+<p style="margin-top:22px;">
+
+और हाँ… <br>
+अगली बार जब low feel हो ना… <br>
+ये website फिर से खोल लेना… 🌸 <br><br>
+
+क्योंकि यहाँ कोई है… <br>
+जो हमेशा आप पर proud रहेगा। 💞 <br><br>
+
+and remember… <br>
+आपकी smile किसी भी marksheet से ज्यादा खूबसूरत है ✨🌹
+
+</p>
+
+</div>
+</section>
+
+<script>
+
+/* PAGE CHANGE */
+
+let currentPage = 0;
+const pages = document.querySelectorAll('.page');
+
+function nextPage(){
+
+pages[currentPage].classList.remove('active');
+
+currentPage++;
+
+if(currentPage < pages.length){
+pages[currentPage].classList.add('active');
+}
+
+}
+
+/* HEARTS */
+
+const hearts = document.querySelector('.hearts');
+
+function createHeart(){
+
+const heart = document.createElement('span');
+
+heart.innerHTML = Math.random() > 0.5 ? '💖' : '🌸';
+
+heart.style.left = Math.random() * 100 + 'vw';
+
+heart.style.fontSize = (Math.random() * 14 + 16) + 'px';
+
+heart.style.animationDuration = (Math.random() * 4 + 6) + 's';
+
+hearts.appendChild(heart);
+
+setTimeout(()=>{
+heart.remove();
+},10000);
+
+}
+
+setInterval(createHeart,500);
+
+</script>
+
+</body>
+  </html>
